@@ -1,0 +1,53 @@
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+    width: 80%;
+    align-self: center;
+}
+
+.container {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.redtxt {
+    color: red;
+}
+
+.link:hover {
+    color: red;
+    cursor: pointer
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn_red {
+    background-color: red !important;
+    color: whitesmoke !important;
+}
+
+.logo {
+    width: 100px;
+}
+
+.half-1 {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    justify-self: flex-start;
+    align-items: center;
+}
+
+.half-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 18%;
+}

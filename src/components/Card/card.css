@@ -1,0 +1,82 @@
+.container-card{
+    justify-content: space-around;
+    width: 56vw;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-content: space-between;
+    height: 60vh;
+}
+
+.card-restaurante{
+    min-height: 220px;
+    min-width: 400px;
+    background-color: red;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.card-restaurante p{
+    color: whitesmoke   ;
+    font-size: 2em;
+    font-weight: bold;
+    align-self: flex-start;
+    margin: 20px;
+}
+
+.card-restaurante img{
+    margin-left: -40px;
+}
+
+.card-mercado{
+    min-height: 220px;
+    min-width: 400px;
+    background-color: greenyellow;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.card-mercado p{
+    color: whitesmoke   ;
+    font-size: 2em;
+    font-weight: bold;
+    align-self: flex-start;
+    margin: 20px;
+}
+
+.card-bebidas{
+    height: 45px;
+    width: 180px;
+    background-color: yellow;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+.card-farmacia{
+    height: 45px;
+    width: 180px;
+    background-color: palevioletred;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+.card-petshop{
+    height: 45px;
+    width: 180px;
+    background-color: violet;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+
+.card-row {
+    display: flex;
+    justify-content: space-between;
+}
