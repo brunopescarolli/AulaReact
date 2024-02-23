@@ -5,7 +5,7 @@ function AppBar() {
     return (<div className="container">
         <Toolbar className="toolbar">
             <div className="half-1">
-                <img src='https://logopng.com.br/logos/ifood-43.png' className="logo"/>
+                <img src='https://logopng.com.br/logos/ifood-43.png' className="logo-ifood"/>
                 <Typography href="#" className="link">Entregador</Typography>
                 <Typography href="#" className="link">Restaurante e Mercado</Typography>
                 <Typography href="#" className="link">Carreiras</Typography>

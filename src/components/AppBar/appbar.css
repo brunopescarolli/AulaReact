@@ -14,11 +14,11 @@
 }
 
 .redtxt {
-    color: red;
+    color: #ea1d2c;
 }
 
 .link:hover {
-    color: red;
+    color: #ea1d2c;
     cursor: pointer
 }
 
@@ -29,11 +29,11 @@
 }
 
 .btn_red {
-    background-color: red !important;
+    background-color: #ea1d2c !important;
     color: whitesmoke !important;
 }
 
-.logo {
+.logo-ifood {
     width: 100px;
 }
 

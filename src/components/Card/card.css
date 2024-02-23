@@ -1,3 +1,5 @@
+
+
 .container-card{
     justify-content: space-around;
     width: 56vw;
@@ -6,16 +8,17 @@
     flex-direction: column;
     align-content: space-between;
     height: 60vh;
+    margin-top: -140px;
 }
 
 .card-restaurante{
     min-height: 220px;
     min-width: 400px;
-    background-color: red;
+    background-color: #ea1d2c;
     border-radius: 20px;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
+
 }
 
 .card-restaurante p{
@@ -28,17 +31,35 @@
 
 .card-restaurante img{
     margin-left: -40px;
+    align-self: flex-end;
+}
+
+.ver-opcoes{
+    background: #cc1825;
+    color: whitesmoke;
+    display: flex;
+    border-radius: 15px;
+    font-weight: bold;
+    padding: 10px;
+    width: 100px;
+}
+
+.txt-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .card-mercado{
     min-height: 220px;
     min-width: 400px;
-    background-color: greenyellow;
+    background-color: #b6d048;
     border-radius: 20px;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
 }
+
 
 .card-mercado p{
     color: whitesmoke   ;
@@ -51,32 +72,58 @@
 .card-bebidas{
     height: 45px;
     width: 180px;
-    background-color: yellow;
+    background-color: #f6d553;
     border-radius: 8px;
     display: flex;
     justify-content: center;
-    align-items: last baseline;
+    align-items: center;
+    flex-direction: column;
 }
 .card-farmacia{
     height: 45px;
     width: 180px;
-    background-color: palevioletred;
+    background-color: #f9879c;
     border-radius: 8px;
     display: flex;
     justify-content: center;
-    align-items: last baseline;
+    align-items: center;
+    flex-direction: column;
 }
 .card-petshop{
     height: 45px;
     width: 180px;
-    background-color: violet;
+    background-color: #8c60c5;
     border-radius: 8px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-img{
     align-items: last baseline;
+}
+
+.card-txt{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-txt img{
+    margin-left: 5px;
+    margin-bottom: -8px;
 }
 
 .card-row {
     display: flex;
     justify-content: space-between;
+}
+
+.linha{
+    height: 2px;
+    width: 1300px;
+    background-color: whitesmoke;
+    align-self: flex-start;
+    margin-left: -240px;
 }
